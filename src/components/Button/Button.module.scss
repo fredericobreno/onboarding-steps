@@ -1,0 +1,24 @@
+.button {
+  text-transform: uppercase;
+  padding: 12px 40px;
+  cursor: pointer;
+  border-radius: 50px;
+
+  &.primary {
+    background-color: var(--button-primary-background-color);
+    border: var(--button-primary-border);
+    color: var(--button-primary-text-color);
+  }
+
+  &.secondary {
+    background-color: var(--button-secondary-background-color);
+    border: var(--button-secondary-border);
+    color: var(--button-secondary-text-color);
+  }
+
+  &.disabled {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    color: #333;
+  }
+}

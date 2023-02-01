@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 300px;
+
+  .label {
+    font-size: 14px;
+    color: var(--text-color-100);
+  }
+
+  .input {
+    padding: 20px 12px;
+    border: 1px solid #b9bcc0;
+    border-radius: 4px;
+    font-size: 1.2rem;
+  }
+
+  .helpText {
+    font-size: 11px;
+    color: var(--text-color-200);
+  }
+}

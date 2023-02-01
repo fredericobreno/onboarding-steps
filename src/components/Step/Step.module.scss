@@ -1,0 +1,43 @@
+.card {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: max(6%, 32px);
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+
+  .title {
+    color: var(--text-color-100);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: center;
+  }
+
+  .subtitle {
+    color: var(--text-color-100);
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .iconWrapper {
+    display: flex;
+    gap: 25px;
+    margin: 24px 0px;
+  }
+
+  .buttonWrapper {
+    align-items: flex-end;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    width: 100%;
+
+    &.buttonCenter {
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  // text
+  --text-color-100: #404040;
+  --text-color-200: #707070;
+  --text-family: Arial, Helvetica, sans-serif;
+
+  // buttons
+  --button-primary-background-color: #0072ce;
+  --button-primary-border: 1px solid #0072ce;
+  --button-primary-text-color: #ffffff;
+
+  --button-secondary-background-color: #ffffff;
+  --button-secondary-border: 1px solid #0072ce;
+  --button-secondary-text-color: #172536;
+}
